@@ -1,0 +1,108 @@
+public class addition{
+
+/**
+* @author - Leander Dsouza
+* @param a - Accepts first integer
+* @param b - Accepts second integer
+* @return - Final answer provided
+
+*/
+
+public int add(int a, int b){
+return a+b;
+
+}
+
+}
+
+-------------------------------
+class additionTest{
+
+@Test
+void test(){
+//fail('Not yet implemented');
+}
+
+@Test
+void addTest(){
+addition obj1 = new addition();
+int expected = 4;
+int actual = obj1.add(2,2);
+assertEquals(expected,actual);
+}
+}
+
+public class multiplication{
+
+/**
+* @author - Leander Dsouza
+* @param a - Accepts first integer
+* @param b - Accepts second integer
+* @return - Final answer provided
+
+*/
+
+public int mul(int a, int b){
+return a*b;
+
+}
+
+}
+
+-------------------------------
+class multiplicationTest{
+
+@Test
+void test(){
+//fail('Not yet implemented');
+}
+
+@Test
+@Disabled
+void mulTest(){
+multiplication obj1 = new multiplication();
+int expected = 4;
+int actual = obj1.mul(2,2);
+assertEquals(expected,actual);
+}
+}
+
+public class division{
+
+/**
+* @author - Leander Dsouza
+* @param a - Accepts first integer
+* @param b - Accepts second integer
+* @return - Final answer provided
+
+*/
+
+public int add(int a, int b){
+return a/b;
+
+}
+
+}
+
+-------------------------------
+class divisionTest{
+
+@Test
+void test(){
+//fail('Not yet implemented');
+}
+
+@Test
+@Display Name('Division Test')
+
+void addTest(){
+division obj1 = new division();
+int expected = 1;
+int actual = obj1.add(2,2);
+assertEquals(expected,actual);
+}
+}
+
+
+
+
